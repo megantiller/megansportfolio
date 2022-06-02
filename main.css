@@ -51,6 +51,20 @@ h1 {
   }
 }
 
+#print {
+  display: grid;
+  grid-template-rows: [apple] 47.5% [banana] 47.5% [strawberry];
+  row-gap: 5%;
+  column-gap: 40px;
+  /*background: #196438;
+  padding: 30px;*/
+  position: relative;
+  /* color: white; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #about {
   display: grid;
   grid-template-columns: [apple] 47.5% [banana] 47.5% [strawberry];
